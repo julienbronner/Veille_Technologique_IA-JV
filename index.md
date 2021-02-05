@@ -4,7 +4,8 @@ You can use the [editor on GitHub](https://github.com/julienbronner/Veille_Techn
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
- Lien vers le [site](https://julienbronner/github.io/Veille_Technologique_IA-JV)
+ Lien vers le [site](http://julienbronner.github.io/Veille_Technologique_IA-JV)
+ 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
