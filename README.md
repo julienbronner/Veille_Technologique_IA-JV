@@ -1,1 +1,1 @@
-# Veille_Technologique_IA-JV
+# Veille Technologique IA et Jeux-Vidéos
