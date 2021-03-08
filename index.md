@@ -8,16 +8,13 @@ Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des 
 
 Pac-Man                    |  Worlod Of Warcraft
 :-------------------------:|:-------------------------:
-<img src="https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Images_Synthese/pacman.jpg" width="100" height="100">  | <img src="https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Images_Synthese/wow_bot.jpg" width="100" height="100">
+<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/pacman.jpg" width="100" >  | <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/wow_bot.jpg" width="100" >
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche. 
 
-Test
-You can use the [editor on GitHub](https://github.com/julienbronner/Veille_Technologique_IA-JV/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
- Lien vers le [site](http://julienbronner.github.io/Veille_Technologique_IA-JV)
+## Aide pour la Syntaxe
  
 ### Markdown
 
