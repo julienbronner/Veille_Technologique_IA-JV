@@ -6,7 +6,9 @@ Il y a eu ensuite des IA avec un comportement précis, comme dans le cas des fan
 
 Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des humains, comme s'ils étaient des humains, c'est-à-dire avec les mêmes informations et les mêmes possibilités d'entrée. Le premier exemple de telles intelligences est celui des robots utilisés dans certains jeux en ligne, comme le MMORPG *World Of Warcraft* avec des *bots* exécutant des tâches répétitives de récoltes, afin d'amasser facilement des ressources.  
 
-![Pac-Man](https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Images_Synthese/pacman.jpg =250x250)
+Pac-Man                    |  Worlod Of Warcraft
+:-------------------------:|:-------------------------:
+<img src="https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Images_Synthese/pacman.jpg" width="100" height="100">  | <img src="https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Images_Synthese/wow_bot.jpg" width="100" height="100">
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche. 
 
