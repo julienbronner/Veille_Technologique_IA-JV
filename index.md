@@ -8,11 +8,19 @@ Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des 
 
 Pac-Man                    |  Worlod Of Warcraft
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/pacman.jpg" width="100" >  | <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/wow_bot.jpg" width="100" >
+<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/pacman.jpg" height="200" >  | <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/wow_bot.jpg" height="200" >
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche. 
 
-## 
+## Présentation générale
+
+## Jeux simples : Mario, Atari
+
+## StarCraft II : AlphaGo de DeepMind
+
+## MineRL
+
+## Avancée récente “First return, then explore” : Go-Explore
 
 ## Aide pour la Syntaxe
  
