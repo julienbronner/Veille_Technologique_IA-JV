@@ -12,12 +12,13 @@ Pac-Man                    |  World Of Warcraft
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche, c'est d'ailleurs le domaine dans lequel l'IA se contonne actuellement, puisqu'elle n'est pas encore utilisée dans des productions réelles. 
 
-
 ### Reinforcement Learning 
 
 Une des méthodes d'apprentissage les plus utilisées dans ce domaine est le Reinforcement Learning. 
 
-<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/reinforcement_learning.png" height="200" >
+Cela consiste en un apprentissage automatique, durant lequel l'agent (c'est-à-dire le robot) agit sur l'environnement, celui-ci va retourner à l'interpréteur un nouvel état, qui va le fournir à l'agent accompagné d'une récompense. Toutefois cette récompense peut être positive ou négative. Ensuite, le robot agit à nouveau. Ainsi il s'améliore en fonction des retours à chaque étape, mais aussi à une échelle plus grande, lorsqu'il meurt ou gagne par exemple, cela lui donne une information sur sa suite d'actions globales. 
+
+<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/reinforcement_learning.png" height="200" style="background-color:white" >
 
 ## Développement de l'IA dans les jeux-vidéos
 
