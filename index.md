@@ -6,21 +6,30 @@ Il y a eu ensuite des IA avec un comportement précis, comme dans le cas des fan
 
 Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des humains, comme s'ils étaient des humains, c'est-à-dire avec les mêmes informations et les mêmes possibilités d'entrée. Le premier exemple de telles intelligences est celui des robots utilisés dans certains jeux en ligne, comme le MMORPG *World Of Warcraft* avec des *bots* exécutant des tâches répétitives de récoltes, afin d'amasser facilement des ressources.  
 
-Pac-Man                    |  Worlod Of Warcraft
+Pac-Man                    |  World Of Warcraft
 :-------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/pacman.jpg" height="200" >  | <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/wow_bot.jpg" height="200" >
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche. 
 
-## Présentation générale
+## Développement de l'IA dans les jeux-vidéos
+
+La multiplicité des jeux, et leur complexité très variable donne un éventail de choix très large pour utiliser une IA. Les premiers essais ont été faits avec des jeux simples, qui ont peut d'entrées possibles (notamment en terme de nombre de touches), comme Mario Bros ou des jeux sortis sur la console Atari 2600. Il n'y avait généralement que des touches pour les quatre directions et deux ou trois boutons d'actions. Il n'y a donc que peu de possibilités pour l'IA, ce qui permet de l'entraîner de manière plus importante et plus rapide. 
+
+Il y a eu ensuite un intérêt pour des jeux plus complexes, tels que le jeu de stratégie en temps réel Starcraft II, le jeu "bac à sable" Minecraft ou même le MOBA (type de jeu en ligne où s'affrontent deux équipes de cinq joueurs généralement) Dota II. 
+
+
+
+<!-- séparer les parties par ordre chronologique de jeu, d'algorithme, ou alors tri par type d'algorithme, ou par compléxité de jeu -->
 
 ## Jeux simples : Mario, Atari
 
-## StarCraft II : AlphaGo de DeepMind
+## Avancée récente “First return, then explore” : Go-Explore
+
+## StarCraft II : AlphaStar de DeepMind
 
 ## MineRL
 
-## Avancée récente “First return, then explore” : Go-Explore
 
 ## Aide pour la Syntaxe
  
@@ -47,6 +56,10 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+## Annexe
+
+Un détail sur les méthodes de Veille utilisée est disponible [ici](https://github.com/julienbronner/Veille_Technologique_IA-JV/blob/main/Rapport_Methodologique_Veille_IA_JV.pdf). 
 
 ## References
 <a id="1">[1]</a> 
