@@ -18,7 +18,9 @@ Une des méthodes d'apprentissage les plus utilisées dans ce domaine est le Rei
 
 Cela consiste en un apprentissage automatique, durant lequel l'agent (c'est-à-dire le robot) agit sur l'environnement, celui-ci va retourner à l'interpréteur un nouvel état, qui va le fournir à l'agent accompagné d'une récompense. Toutefois cette récompense peut être positive ou négative. Ensuite, le robot agit à nouveau. Ainsi il s'améliore en fonction des retours à chaque étape, mais aussi à une échelle plus grande, lorsqu'il meurt ou gagne par exemple, cela lui donne une information sur sa suite d'actions globales. 
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/reinforcement_learning.png" height="200" style="background-color:white" >
+</p>
 
 ## Développement de l'IA dans les jeux-vidéos
 
@@ -28,42 +30,24 @@ Il y a eu ensuite un intérêt pour des jeux plus complexes, tels que le jeu de 
 
 <!-- séparer les parties par ordre chronologique de jeu, d'algorithme, ou alors tri par type d'algorithme, ou par compléxité de jeu -->
 
-## Jeux simples : Mario, Atari
+### Jeux simples : Mario, Atari
 
-
+Bat les scores humains
+On trouve de nouveau trucs
+Motivation à l'exploration uniquement
+Mario : s’affranchir des règles, le robot apprend même les règles, on lui donne juste les boutons sur lesquels appuyer (algo genetique)
 
 ## Avancée récente “First return, then explore” : Go-Explore
+ne prends pas juste le meilleur choix d’après son apprentissage (Reinforcement Learning classique)
+“Montezuma's Revenge”
+mais son but est de résoudre les problèmes qu’il rencontre
 
-## StarCraft II : AlphaStar de DeepMind
 
-## MineRL
+### StarCraft II : AlphaStar de DeepMind
+Starcraft II : suite de alphaGO, AlphaStar
 
-
-## Aide pour la Syntaxe
- 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### MineRL
+Minecraft : compétition avec 4 jours d’entrainements
 
 ## Annexe
 
