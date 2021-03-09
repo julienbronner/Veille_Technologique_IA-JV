@@ -10,7 +10,14 @@ Pac-Man                    |  World Of Warcraft
 :-------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/pacman.jpg" height="200" >  | <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/wow_bot.jpg" height="200" >
 
-L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche. 
+L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche, c'est d'ailleurs le domaine dans lequel l'IA se contonne actuellement, puisqu'elle n'est pas encore utilisée dans des productions réelles. 
+
+
+### Reinforcement Learning 
+
+Une des méthodes d'apprentissage les plus utilisées dans ce domaine est le Reinforcement Learning. 
+
+<img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/reinforcement_learning.png" height="200" >
 
 ## Développement de l'IA dans les jeux-vidéos
 
@@ -18,11 +25,11 @@ La multiplicité des jeux, et leur complexité très variable donne un éventail
 
 Il y a eu ensuite un intérêt pour des jeux plus complexes, tels que le jeu de stratégie en temps réel Starcraft II, le jeu "bac à sable" Minecraft ou même le MOBA (type de jeu en ligne où s'affrontent deux équipes de cinq joueurs généralement) Dota II. 
 
-
-
 <!-- séparer les parties par ordre chronologique de jeu, d'algorithme, ou alors tri par type d'algorithme, ou par compléxité de jeu -->
 
 ## Jeux simples : Mario, Atari
+
+
 
 ## Avancée récente “First return, then explore” : Go-Explore
 
