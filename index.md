@@ -4,7 +4,7 @@ Avec l'avènement des smartphones, l'industrie vidéoludique est de plus en plus
 
 Il y a eu ensuite des IA avec un comportement précis, comme dans le cas des fantômes de Pac-Man, où l'un suit Pac-Man, un autre le fuit, le suivant lui coupe la route et le dernier fait parfois des mouvements aléatoires [[2]](#2). 
 
-Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des humains, comme s'ils étaient des humains, c'est-à-dire avec les mêmes informations et les mêmes possibilités d'entrée. Le premier exemple de telles intelligences est celui des robots utilisés dans certains jeux en ligne, comme le MMORPG *World Of Warcraft* avec des *bots* exécutant des tâches répétitives de récoltes, afin d'amasser facilement des ressources.  
+Mais nous allons nous pencher plutôt sur les robots qui jouent à la place des humains, comme s'ils étaient des humains, c'est-à-dire avec les mêmes informations et les mêmes possibilités d'entrée. Le premier exemple de telles intelligences est celui des robots utilisés dans certains jeux en ligne, comme le MMORPG _World Of Warcraft_ avec des _bots_ exécutant des tâches répétitives de récoltes, afin d'amasser facilement des ressources.  
 
 Pac-Man                    |  World Of Warcraft
 :-------------------------:|:-------------------------:
@@ -22,6 +22,8 @@ Cela consiste en un apprentissage automatique, durant lequel l'agent (c'est-à-d
 <img src="https://raw.githubusercontent.com/julienbronner/Veille_Technologique_IA-JV/main/Images_Synthese/reinforcement_learning.png" height="200" style="background-color:white" >
 </p>
 
+C'est pour cela que l'on parle d'apprentissage par renforcement, le robot apprend à chaque itération, et ses actions sont guidées par la récompense, il se **renforce** donc à chaque étape.
+
 ## Développement de l'IA dans les jeux-vidéos
 
 La multiplicité des jeux, et leur complexité très variable donne un éventail de choix très large pour utiliser une IA. Les premiers essais ont été faits avec des jeux simples, qui ont peut d'entrées possibles (notamment en terme de nombre de touches), comme Mario Bros ou des jeux sortis sur la console Atari 2600. Il n'y avait généralement que des touches pour les quatre directions et deux ou trois boutons d'actions. Il n'y a donc que peu de possibilités pour l'IA, ce qui permet de l'entraîner de manière plus importante et plus rapide. 
@@ -31,6 +33,8 @@ Il y a eu ensuite un intérêt pour des jeux plus complexes, tels que le jeu de 
 <!-- séparer les parties par ordre chronologique de jeu, d'algorithme, ou alors tri par type d'algorithme, ou par compléxité de jeu -->
 
 ### Jeux simples : Mario, Atari
+
+Un des jeux les plus utilisés est Mario Bros, puisqu'il est très populaire, cela parle au plus grand nombre lors des démonstrations. 
 
 Bat les scores humains
 On trouve de nouveau trucs
