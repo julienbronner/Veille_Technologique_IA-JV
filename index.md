@@ -32,25 +32,27 @@ Il y a eu ensuite un intérêt pour des jeux plus complexes, tels que le jeu de 
 
 <!-- séparer les parties par ordre chronologique de jeu, d'algorithme, ou alors tri par type d'algorithme, ou par compléxité de jeu -->
 
-### Jeux simples : Mario, Atari
+## Jeux simples : Mario, Atari
 
-Un des jeux les plus utilisés est Mario Bros, puisqu'il est très populaire, cela parle au plus grand nombre lors des démonstrations. 
+Un des jeux les plus utilisés est Mario Bros, puisqu'il est très populaire, cela parle au plus grand nombre lors des démonstrations. Maintenant, la plupart des meilleurs scores sont détenus par des robots, qui peuvent exécuter beaucoup plus d'actions, et bien plus précises, que des humains. De plus, les jeux Atari donnent des styles de jeux très différents, ce qui permet de tester les IA sur des champs d'actions différents. 
 
-Bat les scores humains
-On trouve de nouveau trucs
-Motivation à l'exploration uniquement
-Mario : s’affranchir des règles, le robot apprend même les règles, on lui donne juste les boutons sur lesquels appuyer (algo genetique)
+Il y a donc beaucoup de modèles et de méthodes différentes pour faire des IA pour les jeux Atari, mais les plus efficaces actuellement sont [DQN](https://www.nature.com/articles/nature14236), [R2D2](https://openreview.net/forum?id=r1lyTjAqYX) (les chercheurs aiment ce genre de référence) et [Agent57](https://arxiv.org/abs/2003.13350) [[3]](#3). Ceux-ci essayent d'apprendre de tout l'environnement, et agissent en fonction de l'état actuel. Il y a des variantes également, comme [MuZero](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules), qui ne prend en compte que certaines parties de l'environnement, celles jugées les plus importantes, pour prendre ses décisions. 
 
-## Avancée récente “First return, then explore” : Go-Explore
+### Curiosity-Driven Learning
+
+Il existe également des méthodes dont la récompense n'est plus extrinsèque à l'agent, c'est-à-dire qu'elle ne vient plus de l'environnement, mais elle peut être intrinsèque. Il y a notamment le cas de la curiosité [[4]](#4), qui est modélisée via l'erreur de prédiction comme récompense. Il est possible aussi de "décourager" l'agent à revisiter un état déjà vu, ce qui le fait explorer des états inconnus. L'étude présentée en note a utilisé comme base les jeux Atari, et d'autres jeux, et a été menée par une équipe composée d"unniversitaires de différentes origines, dont Open AI. Il y a toutefois des limites dans le cas de jeux basé sur de l'aléatoire. 
+
+### “First return, then explore” : Go-Explore
+https://techxplore.com/news/2021-02-algorithms-score-higher-humans-ai.html 
 ne prends pas juste le meilleur choix d’après son apprentissage (Reinforcement Learning classique)
 “Montezuma's Revenge”
 mais son but est de résoudre les problèmes qu’il rencontre
 
 
-### StarCraft II : AlphaStar de DeepMind
+## StarCraft II : AlphaStar de DeepMind
 Starcraft II : suite de alphaGO, AlphaStar
 
-### MineRL
+## MineRL
 Minecraft : compétition avec 4 jours d’entrainements
 
 ## Annexe
@@ -65,3 +67,11 @@ Wikipédia (visité le 08/03/2021).
 <a id="2">[2]</a> 
 Wikipédia (visité le 08/03/2021).
 [Pac-Man](https://fr.wikipedia.org/wiki/Pac-Man#Personnages)
+
+<a id="3">[3]</a> 
+DeepMing Blog (visité le 12/03/2021).
+[MuZero: Mastering Go, chess, shogi and Atari without rules](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules)
+
+<a id="4">[4]</a> 
+Site personnel (visité le 12/03/2021).
+[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
