@@ -43,6 +43,9 @@ Il y a donc beaucoup de modèles et de méthodes différentes pour faire des IA 
 Il existe également des méthodes dont la récompense n'est plus extrinsèque à l'agent, c'est-à-dire qu'elle ne vient plus de l'environnement, mais elle peut être intrinsèque. Il y a notamment le cas de la curiosité [[4]](#4), qui est modélisée via l'erreur de prédiction comme récompense. Il est possible aussi de "décourager" l'agent à revisiter un état déjà vu, ce qui le fait explorer des états inconnus. L'étude présentée en note a utilisé comme base les jeux Atari, et d'autres jeux, et a été menée par une équipe composée d"unniversitaires de différentes origines, dont Open AI. Il y a toutefois des limites dans le cas de jeux basé sur de l'aléatoire. 
 
 ### “First return, then explore” : Go-Explore
+
+
+
 https://techxplore.com/news/2021-02-algorithms-score-higher-humans-ai.html 
 ne prends pas juste le meilleur choix d’après son apprentissage (Reinforcement Learning classique)
 “Montezuma's Revenge”
