@@ -46,15 +46,22 @@ Il existe également des méthodes dont la récompense n'est plus extrinsèque �
 
 Une autre approche trouvée pour améliorer le Reinforcement Learning est celle développée par cette équipe de Uber AI Labs [[5]](#5). L'idée ici est que l'agent résolve les problèmes rencontrés. Pour cela, il apprend et retient les manières qu'il a eu d'aborder un problème et le résultat associé, pour essayer de nouvelles approches. Lors des tests sur une sélection de jeu, ceci a permis d'obtenir de meilleurs résultats que d'autres algorithmes actuels dans 85% des cas. Il a même battu le meilleur score jamais réalisé dans le jeu _Montezuma's Revenge_.
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
+<br/>
+<br/>
 
 ## StarCraft II : AlphaStar de DeepMind
 
 Suite au succès de AlphaGo et de AlphaZero pour les jeux d'échecs, de shogi et de Go, le centre de recherche de Google DeepMind s'est intéressé au jeu-vidéo, et plus particulièrement à StarCraft II, un jeu de stratégie en temps réel. Il y a donc un niveau de complexité bien supérieur aux jeux présentés précédemment, puisque l'on contrôle plusieurs unités ("personnages") à la fois, et qu'il y a une stratégie à l'échelle globale à avoir. L'agent a ainsi su trouver de nouvelles manières de pousser l'adversaire à l'erreur, qui est la première étape de la victoire [[6]](#6). Cela a donc remis en cause la diversité des possibilités explorées par les joueurs professionnels [[7]](#7), puisqu'en s'entrainant contre des clones d'elle-même, AlphaStar dépasse les compétences et les idées utilisées par ces derniers. 
 
 ## MineRL
-Minecraft : compétition avec 4 jours d’entrainements
+
+La compétition [MineRL](https://minerl.io/) est un affrontement entre IA pour obtenir le plus rapidement un diamant (ressource très rare) dans le jeu **Minecraft**. L'idée est que tous les participants sont entrainés avec le même jeu de données et sur la même durée (c'est-à-dire 4 jours), le tout sur un seul GPU. Cette compétition est co-organisée par OpenAI, mais n'importe qui peut s'inscrire et participer, il y a donc des profils très différents, entre des amateurs et des équipes de recherches. De plus, il est extrêmement simple de prendre en main l'environnement puisque celui-ci utilise _Gym_, module Python très répandu lorsqu'il s'agit d'intéragir avec un jeu-vidéo. 
+
+<iframe width="750" height="415" src="https://www.youtube.com/embed/GHo8B4JMC38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+
+Il s'agit donc de définir des objectifs à atteindre pour un jeu n'en ayant pas forcément de base. On voit donc ici les possibilités et la modularité quasi infinie des Intelligences Artificielles.
 
 ## Annexe
 
@@ -88,5 +95,9 @@ DeepMind Blog (visité le 12/03/2021).
 <a id="7">[7]</a> 
 DeepMind Blog (visité le 12/03/2021).
 [AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning)
+
+<a id="8">[8]</a> 
+OpenAI Blog (visité le 12/03/2021).
+[Procgen and MineRL Competitions](https://openai.com/blog/procgen-minerl-competitions/)
 
 
