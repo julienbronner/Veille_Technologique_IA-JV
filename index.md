@@ -44,13 +44,9 @@ Il existe également des méthodes dont la récompense n'est plus extrinsèque �
 
 ### “First return, then explore” : Go-Explore
 
+Une autre approche trouvée pour améliorer le Reinforcement Learning est celle développée par cette équipe de Uber AI Labs [[5]](#5). L'idée ici est que l'agent résolve les problèmes rencontrés. Pour cela, il apprend et retient les manières qu'il a eu d'aborder un problème et le résultat associé, pour essayer de nouvelles approches. Lors des tests sur une sélection de jeu, ceci a permis d'obtenir de meilleurs résultats que d'autres algorithmes actuels dans 85% des cas. Il a même battu le meilleur score jamais réalisé dans le jeu _Montezuma's Revenge_.
 
-
-https://techxplore.com/news/2021-02-algorithms-score-higher-humans-ai.html 
-ne prends pas juste le meilleur choix d’après son apprentissage (Reinforcement Learning classique)
-“Montezuma's Revenge”
-mais son but est de résoudre les problèmes qu’il rencontre
-
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
 
 ## StarCraft II : AlphaStar de DeepMind
 Starcraft II : suite de alphaGO, AlphaStar
@@ -78,3 +74,8 @@ DeepMing Blog (visité le 12/03/2021).
 <a id="4">[4]</a> 
 Site personnel (visité le 12/03/2021).
 [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
+
+
+<a id="5">[5]</a> 
+Techxplore.com (visité le 12/03/2021).
+[Reinforcement learning algorithms score higher than humans, other AI systems at classic video games](https://techxplore.com/news/2021-02-algorithms-score-higher-humans-ai.html )
