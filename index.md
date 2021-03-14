@@ -48,8 +48,10 @@ Une autre approche trouvée pour améliorer le Reinforcement Learning est celle 
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
 
+
 ## StarCraft II : AlphaStar de DeepMind
-Starcraft II : suite de alphaGO, AlphaStar
+
+Suite au succès de AlphaGo et de AlphaZero pour les jeux d'échecs, de shogi et de Go, le centre de recherche de Google DeepMind s'est intéressé au jeu-vidéo, et plus particulièrement à StarCraft II, un jeu de stratégie en temps réel. Il y a donc un niveau de complexité bien supérieur aux jeux présentés précédemment, puisque l'on contrôle plusieurs unités ("personnages") à la fois, et qu'il y a une stratégie à l'échelle globale à avoir. L'agent a ainsi su trouver de nouvelles manières de pousser l'adversaire à l'erreur, qui est la première étape de la victoire [[6]](#6). Cela a donc remis en cause la diversité des possibilités explorées par les joueurs professionnels [[7]](#7), puisqu'en s'entrainant contre des clones d'elle-même, AlphaStar dépasse les compétences et les idées utilisées par ces derniers. 
 
 ## MineRL
 Minecraft : compétition avec 4 jours d’entrainements
@@ -75,7 +77,16 @@ DeepMing Blog (visité le 12/03/2021).
 Site personnel (visité le 12/03/2021).
 [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)
 
-
 <a id="5">[5]</a> 
 Techxplore.com (visité le 12/03/2021).
 [Reinforcement learning algorithms score higher than humans, other AI systems at classic video games](https://techxplore.com/news/2021-02-algorithms-score-higher-humans-ai.html )
+
+<a id="6">[6]</a> 
+DeepMind Blog (visité le 12/03/2021).
+[AlphaStar: Mastering the Real-Time Strategy Game StarCraft II](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii)
+
+<a id="7">[7]</a> 
+DeepMind Blog (visité le 12/03/2021).
+[AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning)
+
+
