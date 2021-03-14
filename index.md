@@ -46,8 +46,7 @@ Il existe également des méthodes dont la récompense n'est plus extrinsèque �
 
 Une autre approche trouvée pour améliorer le Reinforcement Learning est celle développée par cette équipe de Uber AI Labs [[5]](#5). L'idée ici est que l'agent résolve les problèmes rencontrés. Pour cela, il apprend et retient les manières qu'il a eu d'aborder un problème et le résultat associé, pour essayer de nouvelles approches. Lors des tests sur une sélection de jeu, ceci a permis d'obtenir de meilleurs résultats que d'autres algorithmes actuels dans 85% des cas. Il a même battu le meilleur score jamais réalisé dans le jeu _Montezuma's Revenge_.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
-<br/>
+<iframe width="650" height="366" src="https://www.youtube.com/embed/DFhN7N0Troc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align="center" allowfullscreen></iframe>
 <br/>
 
 ## StarCraft II : AlphaStar de DeepMind
@@ -56,9 +55,9 @@ Suite au succès de AlphaGo et de AlphaZero pour les jeux d'échecs, de shogi et
 
 ## MineRL
 
-La compétition [MineRL](https://minerl.io/) est un affrontement entre IA pour obtenir le plus rapidement un diamant (ressource très rare) dans le jeu **Minecraft**. L'idée est que tous les participants sont entrainés avec le même jeu de données et sur la même durée (c'est-à-dire 4 jours), le tout sur un seul GPU. Cette compétition est co-organisée par OpenAI, mais n'importe qui peut s'inscrire et participer, il y a donc des profils très différents, entre des amateurs et des équipes de recherches. De plus, il est extrêmement simple de prendre en main l'environnement puisque celui-ci utilise _Gym_, module Python très répandu lorsqu'il s'agit d'intéragir avec un jeu-vidéo. 
+La compétition [MineRL](https://minerl.io/) est un affrontement entre IA pour obtenir le plus rapidement un diamant (ressource très rare) dans le jeu **Minecraft**. L'idée est que tous les participants sont entrainés avec le même jeu de données et sur la même durée (c'est-à-dire 4 jours), le tout sur un seul GPU [[8]](#8). Cette compétition est co-organisée par OpenAI, mais n'importe qui peut s'inscrire et participer, il y a donc des profils très différents, entre des amateurs et des équipes de recherches. De plus, il est extrêmement simple de prendre en main l'environnement puisque celui-ci utilise _Gym_, module Python très répandu lorsqu'il s'agit d'intéragir avec un jeu-vidéo. 
 
-<iframe width="750" height="415" src="https://www.youtube.com/embed/GHo8B4JMC38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="366" src="https://www.youtube.com/embed/GHo8B4JMC38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 
 Il s'agit donc de définir des objectifs à atteindre pour un jeu n'en ayant pas forcément de base. On voit donc ici les possibilités et la modularité quasi infinie des Intelligences Artificielles.
