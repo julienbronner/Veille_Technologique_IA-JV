@@ -12,6 +12,10 @@ Pac-Man                    |  World Of Warcraft
 
 L'intérêt pour des IA plus complexes est plus récent, et permet souvent d'illustrer des avancées dans la recherche, c'est d'ailleurs le domaine dans lequel l'IA se contonne actuellement, puisqu'elle n'est pas encore utilisée dans des productions réelles. 
 
+### Motivations
+
+J'ai choisi de traiter ce sujet et me renseigner de manière plus approfondie dessus puisque j'allie ainsi deux domaines qui m'intéressent, les jeux-vidéos, auxquels je joue régulièrement, et l'Intelligence Artificielle, un domaine en plein essort et en lien avec ma formation d'ingénieur en informatique. Je souhaite donc savoir où en est réellement le domaine, puisque l'on entend parfois parler de certains résultats (comme avec AlphaStar) mais sans savoir où en est vraiment la recherche.
+
 ### Reinforcement Learning 
 
 Une des méthodes d'apprentissage les plus utilisées dans ce domaine est le Reinforcement Learning. 
@@ -61,6 +65,10 @@ La compétition [MineRL](https://minerl.io/) est un affrontement entre IA pour o
 <br/>
 
 Il s'agit donc de définir des objectifs à atteindre pour un jeu n'en ayant pas forcément de base. On voit donc ici les possibilités et la modularité quasi infinie des Intelligences Artificielles.
+
+## Conclusion
+
+Ainsi, on peut voir qu'actuellement, l'Intelligence Artificielle reste cantonnée à la recherche, et n'est pas encore vraiment implémentée dans des jeux-vidéos. Il reste donc encore une étape à franchir pour pouvoir affronter quotidiennement une IA. Lorsque cela sera possible, on pourra sûrement choisir beaucoup plus finement la difficulté, et notamment arrêter d'augmenter artificiellement la force des _bots_, en leur donnant des avantages de connaissances ou de ressources. 
 
 ## Annexe
 
